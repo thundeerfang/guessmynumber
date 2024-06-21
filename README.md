@@ -19,17 +19,17 @@ To run this application, you need:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/guess-my-number.git
+   git clone https://github.com/thundeerfang/guessmynumber.git
 2. Navigate to the project directory:
    ```bash
-   cd guess-my-number
+   cd guessmynumber
 3. Running the Game
    Open the index.html file in your preferred web browser:
    ```bash
    open index.html
 ## Project Structure
    ```bash
-   guess-my-number/
+   guessmynumber/
    ├── index.html
    ├── styles.css
    └── script.js
