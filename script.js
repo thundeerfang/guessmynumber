@@ -30,7 +30,7 @@ document.querySelector('.check') .addEventListener('click', function clickbot(){
 
     else if(values !== secretNumber){
         if(score > 1){
-            displayMessage(guess > secretNumber ? '📈 Too high!' : '📉 Too low!');
+            displayMessage(values > secretNumber ? '📈 Too high!' : '📉 Too low!');
             score--;
             document.querySelector('.score').textContent = score;
     }
@@ -48,7 +48,7 @@ document.querySelector('.again').addEventListener('click', function again(){
     displayMessage('Start guessing...');
     document.querySelector('.score').textContent = score;
     document.querySelector('.number').textContent = '?';
-    document.querySelector('.guess').value = '';
+    document.querySelector('.values').value = '';
   
     document.querySelector('body').style.backgroundColor = '#222';
     document.querySelector('.number').style.width = '15rem';
